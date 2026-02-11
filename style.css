@@ -36,7 +36,12 @@ main img {
     border-radius: 10px;
 }
 
-main p, h2 {
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+main p, h1 {
     padding-top: 20px;
     
 }
@@ -61,7 +66,7 @@ main p {
     color: var(--p-color);
 }
 
-main h2:hover {
+main h1:hover {
     color: var(--primary-color);
 }
 
